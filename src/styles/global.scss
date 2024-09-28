@@ -1,0 +1,16 @@
+@use "tailwind";
+@use "typography";
+
+*:focus,
+*:focus-visible {
+  outline-offset: 0.375rem;
+  outline: 1rem auto rgb(37, 99, 235);
+}
+
+br {
+  user-select: none;
+}
+
+svg {
+  display: inline;
+}
